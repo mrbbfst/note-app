@@ -1,0 +1,13 @@
+{
+    "name" : "Note",
+    "short_name" : "Note",
+    "start_url" : ".",
+    "display" : "standalon",
+    "icons" : [
+        {
+            "src" : "images/icon.png",
+            "sizes": "512x512",
+            "type" : "image/png"
+        }
+    ]
+}

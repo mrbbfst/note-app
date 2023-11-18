@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=PT+Serif:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="wrapper">
+        <div class="app-header">
+            <span>Note app</span>
+        </div>
+        <section id="main" class="container">
+        </section>
+    </main>
+    <div class="bottom-menu">
+        <div id="create-button" class="create-button">Створити</div>
+    </div>
+    <section id="create-window" class="create-window hidden">
+        <input type="text" id="note-header" class="inputs header-input" placeholder="title">
+        <textarea id="note-text" class="inputs text-input" placeholder="main text"></textarea>
+        <div class="note-window-buttons">
+            <button ID="save-button" class="save-button no-view hidden" type="button">Зберегти</button>
+            <span ID="close-button" class="close-button close-button-big" type="button"> Закрити</span>
+        </div>
+    </section>
+    <!-- <img id="create-button" class="create-note-button" src="/images/pencil.png"> -->
+    <script src="js/script.js"> </script>
+</body>
+</html>
